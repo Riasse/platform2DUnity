@@ -51,17 +51,17 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
@@ -74,9 +74,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GameScripts\Logic\cameraController.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\Logic\eatFlower.cs" />
     <Compile Include="Assets\Scripts\GameScripts\Logic\mainMenu.cs" />
     <Compile Include="Assets\Scripts\GameScripts\Logic\pauseMenu.cs" />
     <Compile Include="Assets\Scripts\GameScripts\Logic\playerController.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\Logic\takeClock.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\Logic\travesablePlatform.cs" />
     <Compile Include="Assets\Scripts\GameScripts\Managers\Managers.cs" />
     <Compile Include="Assets\Scripts\GameScripts\Managers\eventMgr.cs" />
     <Compile Include="Assets\Scripts\GameScripts\Managers\gameMgr.cs" />
